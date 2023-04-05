@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Food-Buy</title>
+  <link rel="stylesheet" href="./bezen.css">
+  <link rel="stylesheet" href="./navbar.css">
+  <link rel="stylesheet" href="search.css">
+  <script src="./bezen.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  >
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div class="navbaar">
+    <div class="f">
+      <nav>
+        <button class="homebutton" id="btn" onclick="homeabout()">
+          <span class="spi"></span>
+          <span class="spi"></span>
+          <span class="spi"></span>
+        </button>
+
+
+
+
+        <ul id="ullist">
+
+          <li class="lif" id="home"><a class="aa" href="#hoe" onclick="homei()">Home </a> <button class="homebutton"
+              id="cross" onclick="cross()">
+              <i class="fa fa-close"></i>
+            </button> </li>
+          <li class="lif"><a class="aa" href="#about" onclick="about()">About</a></li>
+          <li class="lif"><a class="aa" href="#services" onclick="services()">Services</a></li>
+          <li class="lif"><a class="aa" href="#email" onclick="email()">Email</a></li>
+          <li class="lif"><a class="aa" href="#contact" onclick="contact()">Contact</a></li>
+          <li id="sign"><a class="aa" href="./form.html" target="_blank">Sign up </a></li>
+          <li id="logg"><a class="aa" href="./be_zen_project.html" target="_blank">Log in</a></li>
+        </ul>
+        <!--         <ol id="ss">
+          <li id="sign"><a class="aa" href="./form.html" target="_blank">Sign up </a></li>
+          <li id="logg"><a class="aa" href="./be_zen_project.html" target="_blank">Log in</a></li>
+        </ol> -->
+        <div class="middle-section">
+
+          <input class="Search-bar" type="search" name="search" id="search" placeholder="Type your quetion..." value="">
+          <button class=search-button>
+            <img class="search-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg">
+          </button>
+          <button id="voice" class="voice-search-button" onclick="speek()">
+            <img class="voice-search-icon"
+              src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg">
+          </button>
+        </div>
+
+      </nav>
+    </div>
+    <div class="s">
+      <img id="radaf" src="./food01.png" name="slide" class="slid">
+    </div>
+
+    <div class="all">
+      <div class="foodblog">
+        <div class="fooder">
+
+          <h3>Pizza</h3>
+          <div class="foodaimage"><img src="./food01.png" alt=""></div>
+          <p style="padding: 5px;">
+            A salad is a serving in a meal that includes leaf vegetables such as lettuce, spinach, cold
+            cooked vegetables that are sliced into small pieces (for example tomato or onion) .
+          </p>
+          <button class="ord">Oreder Now</button>
+        </div>
+
+        <div class="fooder">
+          <h3>Salad</h3>
+          <div class="foodaimage"><img src="./food02.jpg" alt=""></div>
+          <p style="padding: 5px;">
+            A salad is a serving in a meal that includes leaf vegetables such as lettuce, spinach, cold
+            cooked vegetables that are sliced into small pieces (for example tomato or onion) .
+          </p>
+          <button class="ord">Oreder Now</button>
+        </div>
+
+        <div class="fooder">
+          <h3>Dosa</h3>
+          <div class="foodaimage"><img src="./food03.jpg" alt=""></div>
+          <p style="padding: 5px;"> A dosa is a thin batter-based pancake originating from South India, made
+            from a fermented batter predominantly consisting of lentils and rice.
+          </p>
+          <button class="ord">Oreder Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="middle">
+    <div class="home">
+      <div class="innerhome">
+        <a name="hoe">
+          <h2 id="hom">Home</h2>
+        </a>
+        <p>
+          Get upto 50% Off, Online Foods purches in India: Shop from our online store in India for burger,
+          pizza,dosa and more ...
+        </p>
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="innerabout">
+        <a name="about">
+          <h2 id="abou">About</h2>
+        </a>
+        <p>Use facts, not hype.
+          Inspire trust by providing useful info.
+          Tell visitors what they want to know.
+          Specifics are better than bold claims.
+          Allow a peek behind the curtains.
+          Be empathetic to build a connection.
+          Express your values and beliefs</p>
+        <ol id="leftol">
+          <li> <a>Milk</a></li>
+          <li><a>Bread</a></li>
+          <li> <a>Butter</a></li>
+          <li> <a>Cheese</a> </li>
+          <li> <a>Yogurt</a> </li>
+          <li><a> Sandwich</a></li>
+          <li> <a>Pancake</a></li>
+          <li><a> Pie</a></li>
+          <li><a> Pizza</a></li>
+          <li> <a> horseradish relish</a></li>
+          <li> <a> guava jelly</a></li>
+          <li><a> mango chutney</a></li>
+          <li><a>pickapeppa sauce</a> </li>
+          <li><a>ginger jam</a></li>
+          <li> <a>smoked sprats</a></li>
+          <li><a>conchiglioni</a></li>
+          <li><a>pancit luglug</a> </li>
+        </ol>
+
+
+      </div>
+    </div>
+
+    <div class="services">
+      <a name="services">
+        <h2 id="ser">Services</h2>
+      </a>
+      <div class="inneremail">
+        <p>
+          Foodservice is all about food and beverages that are consumed out of the home. Consumers visit
+          foodservice outlets for a number of reasons, such as the added convenience, to sample new tastes
+          and flavours, to celebrate and to socialise. Foodservice covers a wide range of eating occasions
+          and outlets: Hotel. Restaurants.
+        </p>
+      </div>
+    </div>
+
+    <div class="email">
+      <div class="inneremail">
+        <a name="email">
+          <h2 id="em">Email</h2>
+        </a>
+        <p>you can contact us at this email id : <a href="" target="_blank"> ak2884182@gmail.com</a> </p>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="innercontact">
+        <a name="contact">
+          <h2 id="con">Contact</h2>
+        </a>
+        <p>
+          you can contact us at telegram and whatsapp : 93057*****
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="coxf">
+      <p>
+        &copy; Copyright 2022
+      </p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

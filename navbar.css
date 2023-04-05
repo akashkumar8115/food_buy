@@ -1,0 +1,110 @@
+  #ffs {
+    border :2px solid red;
+    margin-top: 4px;
+    overflow: hidden;
+  }
+ #fs{
+    overflow: hidden;
+    border :2px solid blue;
+   
+ }
+
+
+
+
+@media (max-width: 520px) {
+  .homebutton {
+    display: block;
+/*   position: relative; */
+  height: 24px;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.middle-section {
+  flex: 1;
+  margin: auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.Search-bar {
+ width: 150px;
+}
+  #ss {
+    display: none;
+  }
+
+  #ullist {
+    display: none;
+  }
+  #ullist li{
+    background-color: black;
+  }
+  #ullist li :hover{
+    border: none;
+  }
+  #hidebox {
+    font-size: 16px;
+    top: 25px;
+    width: 100%;
+    margin-left: 36px;
+  }
+
+  #btn:hover > #ss {
+    display: block;
+  }
+
+  #ffs {
+    border :2px solid red;
+    margin-top: 4px;
+  }
+ #fs{
+/*    margin-top:50px;
+   padding-top:60px; */
+ }
+  #radar {
+    display: none;
+  }
+
+  .s {
+    height: 342px;
+    margin-top:20px;
+  }
+
+  .foodblog {
+    display: block;
+    margin-top: 0px;
+    height: auto;
+    
+  }
+
+  .fooder {
+    height: auto;
+    width: auto;
+  }
+  #btn:hover > #ss{
+    display:block;
+  }
+  .fa{
+    font-size: 25px;
+  }
+  #home{
+    display: flex;
+  }
+  .fooder {
+  height: 345px;
+  width: 392px;
+  margin: 10px;
+}
+}
+
+
+
+
