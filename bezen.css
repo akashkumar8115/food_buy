@@ -231,4 +231,10 @@ footer {
 .middle {
   background-color: rgb(172, 150, 150);
 }
-
+.all{
+   justify-items: center;
+ overflow-wrap: break-word;
+}
+.foodblog{
+   justify-items: center;
+}
